@@ -1,0 +1,28 @@
+.footer-bg {
+  background-color: #141414;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 3fr 9fr 4fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer h3 {
+  margin-bottom: 32px;
+}
+
+.footer-contato ul {
+  margin-bottom: 32px;
+}
+
+.footer-contato li:nth-child(even):after {
+  content: "";
+  display: block;
+  max-width: 360px;
+  height: 2px;
+  background: #940a0a;
+  margin-top: 16px;
+}
